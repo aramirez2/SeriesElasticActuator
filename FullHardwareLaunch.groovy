@@ -320,6 +320,7 @@ public class HIDRotoryLink extends AbstractRotoryLink{
 
 }
 
+//Don't forget!!
 public class PhysicicsDevice extends NonBowlerDevice{
 	/**
 	 * Cross product.
@@ -531,7 +532,7 @@ public class PhysicicsDevice extends NonBowlerDevice{
 	}
 	
 }
-
+//Where the majority of the code will happen. 
 
 def dev = DeviceManager.getSpecificDevice( "hidbowler",{
 	//If the device does not exist, prompt for the connection
